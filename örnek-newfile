@@ -1,0 +1,4 @@
+public int commentRef { set; get; }
+        public string folder { set; get; }
+        public string folderType { set; get; }
+        public string date { set; get; }
