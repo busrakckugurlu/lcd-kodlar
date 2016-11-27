@@ -1,0 +1,67 @@
+004-005 @READ_PROGRAM_MEMORY8.P1
+015     CCP_1_LOW
+015-016 CCP_1
+016     CCP_1_HIGH
+01F.6   C1OUT
+01F.7   C2OUT
+021     btn_oku.tus
+021     lcd_ayarla.j
+021     adres.x
+021     MAIN.@SCRATCH1
+022     adres.y
+022     lcd_yaz.k
+023     lcd_yaz.@SCRATCH1
+023     adres.@SCRATCH1
+024     lcd_command.m
+025     @delay_ms1.P1
+025     lcd_command.@SCRATCH1
+026     data_tara.dsg
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+07B     @SCRATCH
+10D-10E @READ_PROGRAM_MEMORY8.P1
+
+ROM Allocation:
+0026  @delay_ms1
+003B  data_tara
+005C  lcd_command
+00B7  lcd_yaz
+00E6  adres
+008B  lcd_ayarla
+00FA  btn_oku
+0112  MAIN
+0004  @const71
+0014  @const72
+0112  @cinit
+
+Project Directory:
+    C:\Users\Büþra1\Desktop\programlar\628-lcd-rs\
+
+Project Files:
+    gonder.c
+    ..\..\..\..\..\Program Files (x86)\PICC\devices\16f628A.h
+    lcd2x16.c
+
+Units:
+    C:\Users\Büþra1\Desktop\programlar\628-lcd-rs\gonder.c (main)
+
+Compiler Settings:
+    Processor:      PIC16F628A
+    Pointer Size:   16
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    Errors:      gonder.err
+    Ext Symbols: gonder.esym
+    INHX8:       gonder.hex
+    Symbols:     gonder.sym
+    List:        gonder.lst
+    Debug/COFF:  gonder.cof
+    Project:     gonder.PJT
+    Call Tree:   gonder.tre
+    Statistics:  gonder.sta

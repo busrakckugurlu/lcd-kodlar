@@ -1,0 +1,6 @@
+>>> Warning 203 "al.c" Line 92(1,1): Condition always TRUE
+>>> Warning 216 "al.c" Line 108(0,1): Interrupts disabled during call to prevent re-entrancy:  (@delay_ms1)
+>>> Warning 216 "al.c" Line 108(0,1): Interrupts disabled during call to prevent re-entrancy:  (lcd_command)
+>>> Warning 202 "al.c" Line 8(19,20): Variable never used:   j
+      Memory usage:   ROM=32%      RAM=11% - 15%
+      0 Errors,  4 Warnings.
